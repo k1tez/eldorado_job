@@ -1,0 +1,52 @@
+.container {
+    max-width: 1000px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 5px;
+    margin: 0;
+}
+
+.fff {
+    padding: 2px 18px;
+    background-color: #D70E2A;
+}
+
+.p-navbar-top {
+    font-size: 14px;
+}
+
+.h1-intro-title {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.h3-title {
+    font-size: 30px;
+}
+
+.p-subtitle-services {
+    font-size: 16px;
+}
+
+.p-text-card, .p-text-white-card {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.yyy {
+    background-color: #171717;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.p-text-white-card {
+    font-size: 14px;
+    color: #fff;
+}
