@@ -30,10 +30,6 @@ p {
     font-size: 30px;
 }
 
-.p-subtitle-services {
-    font-size: 16px;
-}
-
 .p-text-card, .p-text-white-card {
     font-size: 16px;
     font-weight: 500;
@@ -49,4 +45,30 @@ p {
 .p-text-white-card {
     font-size: 14px;
     color: #fff;
+}
+
+hr {
+    height: 2px;
+}
+
+.hr-linear, .hr-linear-red {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to left, #E6E6E6 70%, #000 30%, #000 40%);
+}
+
+.hr-linear-red {
+    background-image: linear-gradient(to right, #D70E2A 30%, #E6E6E6 10%, #E6E6E6 40%);
+}
+
+@media (max-width: 575.98px) {
+    .p-text-card {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .p-text-card {
+        font-size: 14px;
+    }
 }
